@@ -4,9 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Veterinary Design</title>
 </head>
 <body>
-    
+    <main>
+        <header class="contenedor__header">
+            <a href="index.html">
+                <img src="./img/logo.png" alt="logo de página">
+            </a>
+            <nav class="contenedor__nav">
+                <ul class="contenedor__ul--nav">
+                    <li><a class="p__parrafos contenedor__lins--ul" href="#">Home</a></li>
+                    <li><a class="p__parrafos contenedor__lins--ul" href="#">About</a></li>
+                    <li><a class="p__parrafos contenedor__lins--ul" href="#">Service</a></li>
+                    <li><a class="p__parrafos contenedor__lins--ul" href="#">Contact</a></li>
+                    <div class="contenedor__inputs">
+                    <form>
+                        <input class="contenedor__search--ul" type="search" placeholder="Search..">
+                        <div class="contenedor__lupa--ul">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    </form>
+                </div>
+                    <button class="contendor__abierto--menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </ul> 
+            </nav>
+                    <div class="contenedor__mobile--menu">
+                        <div class="contenedor__mobile--icono">
+                            <div class="contenedor__mobile--header">
+                        <button class="contenedor__cierre--menu">
+                            <i class="fa-solid fa-x"></i>
+                        </button>
+                    </div>
+                    </div>
+                        <div class="contenedor__mobile--ul">
+                        <ul class="contendor__menu--ul">    
+                        <li><a class="h2__subtitulo" href="#">Home</a></li>
+                        <li><a class="h2__subtitulo" href="#">About</a></li>
+                        <li><a class="h2__subtitulo" href="#">Service</a></li>
+                        <li><a class="h2__subtitulo" href="#">Contact</a></li>
+                    </ul>
+                </div>
+                    </div>
+        </header>
+        <section class="contenedor__inicio">
+            <div class="contenedor__inicio--principal">
+            <div class="contenedor__informacion--inicio">
+                <h1>First I wanted to be
+                    a veterinarian</h1>
+                <p>Lorem Ipsum available but the majority have
+                    suffered alteration in some form, by injected
+                    humour randomised words</p>
+                <div class="contenedor__botones--inicio">
+                    <a href="#">Contact Us</a>
+                    <a href="#">Our Service</a>
+                </div>
+            </div>
+            <div class="contenedor__img">
+                <img  class="img__perro" src="./img/perro_inicio.png" alt="Mascota perruna del inicio   ">
+            </div>
+        </div>
+        </section>
+    </main>
+    <script src="mian.js"></script>
 </body>
 </html>

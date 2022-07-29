@@ -1,0 +1,8 @@
+@media (min-width:900px){
+    .contendor__abierto--menu{
+        display: none;
+    }
+    .contenedor__ul--nav .contenedor__lins--ul{
+        display: flex;
+    }
+}
