@@ -147,27 +147,32 @@ button i{
 /*Section Inicio*/
 .contenedor__inicio{
     background-color: #fcc302;
-    padding: 50px;
+    width: 100vw;
+    padding:30px;
+    
 }
 .contenedor__inicio--principal{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:center;
+}
+.contenedor__informacion--inicio{
+    align-self: center;
 }
 .contenedor__informacion--inicio h1{
     font-family: 'Poppins', sans-serif;
     color: white;
-    max-width: 350px;
+    max-width: 370px;
+    letter-spacing: 1px;
 }
 .contenedor__informacion--inicio p{
     font-family: 'Poppins', sans-serif;
     color: white;
-    max-width: 350px;
+    max-width: 450px;
     margin-top: 20px;
 }
 .contenedor__botones--inicio{
-    background-color: aquamarine;
-    max-width: 250px;
+    max-width: 210px;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -180,7 +185,9 @@ button i{
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
+    padding: 10px 0;
     text-align: center;
+    border-radius: 3px;
 }
 .contenedor__botones--inicio a:nth-child(2){
     background-color: #fcc302;
@@ -192,10 +199,12 @@ button i{
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
     text-align: center;
+    border-radius: 3px;
+    padding: 10px 0;
 }
 .contenedor__img{
-    margin-top: 20px;
+    margin-top: 30px;
 }
-.contendor__img img{
-
+.img__perro{
+    width: 300px;
 }
