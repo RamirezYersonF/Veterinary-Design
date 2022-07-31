@@ -325,7 +325,8 @@ button i{
     text-align: center;
     max-width: 550px;
     letter-spacing: 1.5px;
-    margin: 0 auto;
+    margin: 0px auto;
+    padding-bottom: 60px;
 }
 .secciontres__imagenes{
     max-width: 980px;
@@ -335,7 +336,8 @@ button i{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 60px auto;
+    margin: 0  auto ;
+    padding: 0 10px;
 }
 .contenedor__imagenes--secciontres div{
     width: 100%;
