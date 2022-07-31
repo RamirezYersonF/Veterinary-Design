@@ -309,3 +309,53 @@ button i{
     left: -5%;
     z-index: 0;
 }
+.contenedor__secciontres{
+    padding: 60px 30px;
+    background-color: #fcc302;
+}
+.contenedor__secciontres--inicio h1{
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.contenedor__secciontres--inicio p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    max-width: 550px;
+    letter-spacing: 1.5px;
+    margin: 0 auto;
+}
+.secciontres__imagenes{
+    max-width: 980px;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 60px auto;
+}
+.contenedor__imagenes--secciontres div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.contenedor__imagenes--secciontres div img{
+    width: 250px;
+}
+.contenedor__imagenes--secciontres h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
+.contenedor__imagenes--secciontres p{
+    margin: 20px 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: 250px;
+    text-align: center;
+}
