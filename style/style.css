@@ -281,7 +281,6 @@ button i{
     height: 100%;
     z-index: 100;
     position: relative;
-    opacity: 0.8;
 }
 .cotenedor__secciondos--icono{
     position: absolute;
@@ -309,6 +308,7 @@ button i{
     left: -5%;
     z-index: 0;
 }
+/*Seccion Tres*/
 .contenedor__secciontres{
     padding: 60px 30px;
     background-color: #fcc302;
@@ -360,4 +360,104 @@ button i{
     font-family: 'Poppins', sans-serif;
     max-width: 250px;
     text-align: center;
+}
+/*Seccion cuatro*/
+.contenedor__seccioncuatro{
+    background-color: #fff;
+    width: 100%;
+    padding: 60px 30px;
+}
+.contenedor__seccioncuatro--principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.contenedor__informacion--seccioncuatro{
+    align-self: center;
+}
+.contenedor__informacion--seccioncuatro h1{
+    font-family: 'Poppins', sans-serif;
+    color: #313243;
+    max-width: 450px;
+    text-align: end;
+    padding: 0 10px 0 0;
+}
+.contenedor__parrafo--seccioncuatro{
+    max-width: 480px;
+    display: flex;
+    justify-items: flex-end;
+    justify-content: flex-end;
+}
+.contenedor__informacion--seccioncuatro p{
+    font-family: 'Poppins', sans-serif;
+    color: #313243;
+    width: 100%;
+    min-width: 320px;
+    max-width: 380px;
+    margin-top: 20px;
+    text-align: end;
+    padding: 0 10px 0 0;
+}
+.contenedor__botones--seccioncuatro{
+    max-width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding: 0 10px 0 0;
+}
+.contenedor__botones--seccioncuatro a{
+    background-color: #fcc302;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 3px;
+}
+.contenedor__infomracion__principa{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.contenedor__img--seccioncuatro{
+    margin-top: 30px;
+    background-color: #a27b0a;
+    z-index: 300;
+    position: relative;
+}
+
+.img__perro--seccioncuatro{
+    width: 300px;
+    height: 100%;
+    z-index: 100;
+    position: relative;
+}
+.cotenedor__seccioncuatro--icono{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+}
+.contenedor__circulo--seccioncuatro{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    z-index: 150;
+    position: absolute;
+}
+.contenedor__circulo--seccioncuatro i{
+    font-size: 15px;
+    color: #a27b0a;
+    transform: rotate(60deg);
+
+}
+.contenedor__cudrado--seccioncuatro{
+    background-color: #fcc302;
+    width: 130px;
+    height: 100px;
+    position: absolute;
+    top: 70%;
+    left: 65%;
 }

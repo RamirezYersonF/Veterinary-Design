@@ -1,3 +1,11 @@
+@media(min-width:810px){
+    .contenedor__seccioncuatro--principal{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        flex-direction: row-reverse;
+    }
+}
 @media (min-width:900px){
     .contendor__abierto--menu{
         display: none;
