@@ -355,7 +355,7 @@ button i{
     margin: 20px 0;
 }
 .contenedor__imagenes--secciontres p{
-    margin: 20px 0;
+    margin-bottom: 40px;
     color: white;
     font-family: 'Poppins', sans-serif;
     max-width: 250px;
@@ -460,4 +460,76 @@ button i{
     position: absolute;
     top: 70%;
     left: 63%;
+}
+/*Seccion cinco*/
+.contenedor__seccioncinco{
+    padding: 60px 30px;
+    background-color: #fcc302;
+}
+.contenedor__seccioncinco--inicio h1{
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.contenedor__seccioncinco--inicio p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    max-width: 550px;
+    letter-spacing: 1.5px;
+    margin: 0px auto;
+    padding-bottom: 60px;
+}
+.seccioncinco__imagenes{
+    max-width: 980px;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0  auto ;
+    padding: 0 10px;
+}
+.contenedor__imagenes--seccioncinco{
+    padding-bottom: 20px;
+}
+.contenedor__imagenes--seccioncinco div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contenedor__imagenes--seccioncinco div img{
+    width: 250px;
+}
+.contenedor__imagenes--seccioncinco h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
+.contenedor__precio--descuento{ 
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+.contenedor__precio--descuento::after{
+    content: "";
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    width: 120%;
+    top: calc(100% - 22px);
+    height: 5px;
+}
+.contenedor__boton--seccioncinco a{
+    color: white;
+    background-color: #00bec9;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
 }
