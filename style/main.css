@@ -2,6 +2,7 @@
 img, .img__logo{width: 160px;}
 h1, .h1__titulo{font-size: 3.5rem;}
 h2, .h2__subtitulo{font-size: 2.5rem;}
+h3 {font-size: 1.7rem; font-weight: bold;}
 p, .p__parrafos{font-size: 1.8rem;}
 button, .button__iconos{border: none;}
 li{list-style: none;}

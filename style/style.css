@@ -329,8 +329,6 @@ button i{
     padding-bottom: 60px;
 }
 .secciontres__imagenes{
-    max-width: 980px;
-    margin-top: 40px;
     width: 100%;
     max-width: 980px;
     display: flex;
@@ -532,4 +530,67 @@ button i{
     font-weight: bold;
     border-radius: 15px;
     font-family: 'Poppins', sans-serif;
+}
+/*Contenedor seccion seis*/
+.contenedor__seccionseis{
+    background-color: #fff;
+    width: 100%;
+    padding: 60px 30px;
+}
+.contenedor__seccionseis .contenedor__seccionseis--inicio{
+    margin-bottom: 30px;
+    color: #313243;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.contenedor__seccionseis p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    max-width: 450px;
+    margin: 0px auto;
+    padding: 30px 0;
+}
+.contenedor__seccionseis--imagenes{
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0  auto ;
+    padding: 0 10px;
+}
+.contenedor__seccionseis--imagenes .contenedor__imagenes{
+    display: grid;
+    margin-top: 20px;
+}
+.contenedor__imagenes img{
+    width: 250px;
+}
+.contenedor__seccionseis--parrafo{
+    justify-self: center;
+    font-family: 'Poppins', sans-serif;
+    align-self: center;
+}
+.contenedor__seccionseis--parrafo h3{
+    font-weight: bold;
+    color: #313243;
+    padding-top: 20px;
+}
+.contenedor__seccionseis--parrafo p{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px 0 10px;
+    font-size: 1.5rem;
+    color: #313243;
+}
+.contenedor__seccionseis--redesociales{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor__seccionseis--redesociales i{
+    padding: 5px;
+    background-color: #daac00;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
 }
