@@ -594,3 +594,49 @@ button i{
     color: white;
     font-size: 15px;
 }
+/*Seccion siete*/
+.contenedor__seccionsiete{
+    width: 100%;
+    height: 500px;
+}
+.contenedor__imagenesfondo--seccionsiete{
+    background-image: url('/img/seccionocho.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.contenedor__iconos--seccionsiete{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenedor__iconos{
+
+    justify-items: center;
+}
+.contenedor__iconos img{
+    width: 100px;
+    width: 80px;
+    margin: 0 auto;
+    display: flex;
+}
+.contenedor__sessiontsiete--parrafo{
+    text-align: center;
+    padding-top: 20px;
+}
+.contenedor__sessiontsiete--parrafo p:nth-child(1){
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.contenedor__sessiontsiete--parrafo p:nth-child(2){
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
