@@ -613,6 +613,7 @@ button i{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding: 60px;
 }
 .contenedor__iconos{
     justify-items: center;
@@ -638,4 +639,80 @@ button i{
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+}
+/*Seccion nueve*/
+.contenedor__seccionnueve{
+    background-color: #fff;
+    width: 100%;
+    padding: 60px 30px;
+}
+.contenedor__seccionnueve .contenedor__seccionnueve--inicio{
+    margin-bottom: 30px;
+    color: #313243;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.contenedor__seccionnueve--inicio p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    max-width: 450px;
+    margin: 0px auto;
+    padding-top:  20px;
+}
+.contenedor__seccionnueve--imagenes{
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0  auto ;
+    padding: 0 10px;
+}
+
+.contenedor__seccionnueve--imagenes .contenedor__imagenes--seccionueve{
+    display: grid;
+    margin-top: 20px;
+    max-width: 300px;
+    cursor: pointer;
+}
+.contenedor__imagenes--seccionueve:hover{
+    -webkit-box-shadow: 1px 8px 15px -5px rgba(0,0,0,0.92); 
+    box-shadow: 1px 8px 15px -5px rgba(0,0,0,0.92);
+}
+.contenedor__seccionnueve--imagenes .contenedor__imagenes--seccionueve img{
+    width: 100%;
+}
+.contenedor__seccionnueve--parrafo{
+    justify-self: center;
+    font-family: 'Poppins', sans-serif;
+    align-self: center;
+    border-bottom: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+}
+
+.contenedor__seccionnueve--parrafo h3{
+    font-weight: bold;
+    color: #313243;
+    padding: 20px 20px 5px 20px;
+    font-size: 2rem;
+}
+.contenedor__seccionnueve--parrafo p:nth-child(2){
+    padding: 0 20px 20px;
+    color: #54d3db;
+    font-size: 1.5rem;
+}
+.contenedor__seccionnueve--parrafo p:nth-child(1){
+    padding: 0 20px 20px;
+    color: black;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+.contenedor__seccionueve--boton{
+    padding: 0 20px 20px;
+}
+.contenedor__seccionnueve--redesociales a{
+    font-size: 1.8rem;
+   color: #54d3db;
+   font-weight: bold;
 }
