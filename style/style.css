@@ -10,7 +10,7 @@ html{
 main{
     background-color: aqua;
     width: 100%;
-    height: 100vw;
+    height: 100vh;
 }
 main .contenedor__header{
     background-color: #daac00;
@@ -91,7 +91,7 @@ button i{
     opacity: 0;
     pointer-events: none;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -119,6 +119,7 @@ button i{
 .menu__abierto--javascript{
     opacity: 1;
     pointer-events: all;
+    z-index: 500;
 }
 .contenedor__mobile--icono{
     width: 100vw;
@@ -598,7 +599,7 @@ button i{
     height: 500px;
 }
 .contenedor__imagenesfondo--seccionsiete{
-    background-image: url('/img/seccionocho.png');
+    background-image: url('../img/seccionocho.png');
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
@@ -611,7 +612,7 @@ button i{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 60px;
+    padding: 0px;
 }
 .contenedor__iconos{
     justify-items: center;
@@ -789,4 +790,18 @@ button i{
 }
 .contenedor__columnatres--secciondies h2{
     text-align: end;
+}
+.contenedor__secciondies--redesociales{
+    margin-top: 40px;
+    display: flex;
+    justify-content: end;
+}
+.contenedor__secciondies--redesociales > .fa-brands{
+    font-size: 3rem;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 0 5px;
+    color: #343434;
+    cursor: pointer;
 }

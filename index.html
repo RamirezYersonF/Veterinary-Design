@@ -21,13 +21,15 @@
             </a>
             <nav class="contenedor__nav">
                 <ul class="contenedor__ul--nav">
-                    <li><a class="p__parrafos contenedor__lins--ul" href="#">Home</a></li>
-                    <li><a class="p__parrafos contenedor__lins--ul" href="#">About</a></li>
-                    <li><a class="p__parrafos contenedor__lins--ul" href="#">Service</a></li>
-                    <li><a class="p__parrafos contenedor__lins--ul" href="#">Contact</a></li>
+                    <li><a class="p__parrafos contenedor__lins--ul" href="#inicio">Home</a></li>
+                    <li><a class="p__parrafos contenedor__lins--ul" href="#about">About</a></li>
+                    <li><a class="p__parrafos contenedor__lins--ul" href="#service">Service</a></li>
+                    <li><a class="p__parrafos contenedor__lins--ul" href="#contact">Contact</a></li>
                     <div class="contenedor__inputs">
                     <form>
+                        <label for="">
                         <input class="contenedor__search--ul" type="search" placeholder="Search..">
+                    </label>
                         <div class="contenedor__lupa--ul">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
@@ -48,15 +50,15 @@
                         </div>
                         <div class="contenedor__mobile--ul">
                         <ul class="contendor__menu--ul">    
-                        <li><a class="h2__subtitulo" href="#">Home</a></li>
-                        <li><a class="h2__subtitulo" href="#">About</a></li>
-                        <li><a class="h2__subtitulo" href="#">Service</a></li>
-                        <li><a class="h2__subtitulo" href="#">Contact</a></li>
+                        <li><a class="h2__subtitulo" href="#inicio">Home</a></li>
+                        <li><a class="h2__subtitulo" href="#about">About</a></li>
+                        <li><a class="h2__subtitulo" href="#service">Service</a></li>
+                        <li><a class="h2__subtitulo" href="#contact">Contact</a></li>
                     </ul>
                 </div>
                     </div>
         </header>
-        <section class="contenedor__inicio">
+        <section class="contenedor__inicio" id="#inicio">
             <div class="contenedor__inicio--principal">
             <div class="contenedor__informacion--inicio">
                 <h1>First I wanted to be
@@ -74,7 +76,7 @@
             </div>
         </div>
         </section>
-        <section class="contenedor__secciondos">
+        <section class="contenedor__secciondos" id="about">
             <div class="contenedor__secciondos--principal">
             <div class="contenedor__informacion--secciondos">
                 <h1>As a veterinarian and
@@ -98,7 +100,7 @@
             </div>
         </div>
         </section>
-        <section class="contenedor__secciontres">
+        <section class="contenedor__secciontres" id="service">
             <div class="contenedor__secciontres--inicio">
                 <h1>Title Here</h1>
                 <p> Lorem Ipsum available, but the majority have
@@ -334,7 +336,7 @@
                 </div>
             </div>
            </section>
-           <footer class="contenedor__secciondies"> 
+           <footer class="contenedor__secciondies" id="contact"> 
            <div class="contenedor__secciondies--inicio">
                 <div class="contenedor__columnauna--secciondies columnas columnas--secciondies">
                     <h2>About</h2>
@@ -357,16 +359,42 @@
                     <p>Lorem Ipsum available, but the majorit</p>
                     <div class="contenedor__input--secciondies">
                         <form>
+                            <label>
                             <input type="search">
+                        </label>
                             <div class="contenedor__mensajes">
                                 <i class="fa-brands fa-telegram"></i>
                             </div>
                         </form>
+                    </div>
+                    <div class="contenedor__secciondies--redesociales">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
                     </div>
                 </div>
             </div>
            </footer>
     </main>
     <script src="main.js"></script>
+    <script src="jquery.js"></script>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 200, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
 </html>

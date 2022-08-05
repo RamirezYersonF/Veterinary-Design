@@ -6,3 +6,11 @@ function toggleMenu() {
 };
 menuAbierto.addEventListener("click",  toggleMenu);
 menuCerrar.addEventListener("click",  toggleMenu);
+
+const menuLinks = document.querySelectorAll('.contenedor__mobile--menu a[href^="#"]');
+
+menuLinks.forEach(menuLinks =>{
+    menuLinks.addEventListener("click", function(){
+        menuMostrar.classList.remove("menu__abierto--javascript")
+    })
+});
